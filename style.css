@@ -194,6 +194,66 @@ h3{
     width: 80%;
     margin: auto;
     text-align: center;
+    padding-top: 50px;
+}
+
+.Gallery-col{
+   
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+
+.Gallery-col img{
+    display: flex;
+    border-radius: 20px;
+    border: 4px ridge #ee8f66;
+    width: auto;
+    height:auto;
+    margin: 20px;
+    padding: 10px;
+    
 }
 
 
+/*-------Testimonials--------*/
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-col{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #ee8f66;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-col img{
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+/*---------Footer-----------*/
+.footer{
+   
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
